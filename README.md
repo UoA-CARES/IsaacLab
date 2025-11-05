@@ -2,6 +2,16 @@
 
 ---
 
+# Repository purpose
+
+This repository is a maintained snapshot of Isaac Lab tailored for our research and development:
+- The upstream Isaac Lab is actively developed; large changes between releases can introduce regressions and performance variations.
+- We will develop and maintain custom RL models and experiments on top of this codebase; keeping our own stable release ensures reproducibility and easier debugging.
+- We will periodically merge, test, and adopt upstream improvements to stay compatible with new features.
+
+
+---
+
 # Isaac Lab
 
 [![IsaacSim](https://img.shields.io/badge/IsaacSim-5.0.0-silver.svg)](https://docs.isaacsim.omniverse.nvidia.com/latest/index.html)
